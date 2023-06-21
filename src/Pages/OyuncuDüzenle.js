@@ -148,7 +148,7 @@ const OyuncuDüzenle = () => {
             <div className="kutu3">
                 <button style={{ width: 40, height: 40, margin: 5 }} className="f1 a1 btn btn-light"><i class="fa-brands fa-facebook"></i></button>
                 <button style={{ width: 40, height: 40, margin: 5 }} className="t3 a3 btn btn-light"><i class="fa-brands fa-twitter"></i></button>
-                <button style={{ width: 40, height: 40, margin: 5 }} className="ı2 a2 btn btn-light"><i class="fa-brands fa-instagram"></i></button>
+                <button style={{ width: 40, height: 40, margin: 5 }} className="i2 a2 btn btn-light"><i class="fa-brands fa-instagram"></i></button>
                 <button style={{ width: 40, height: 40, margin: 5 }} className="y4 a4 btn btn-light"><i class="fa-brands fa-youtube"></i></button>
             </div>
         </div>
