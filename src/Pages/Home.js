@@ -1,5 +1,5 @@
 import Navbar from "../Component/Navbar";
-import React, { useEffect, useState } from "react";
+import React  from "react";
 import Slayt from "../Component/Slayt";
 import Canlı from "../Component/Canlı";
 import icon from "../Resimler/superligg.jpg"
