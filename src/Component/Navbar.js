@@ -51,7 +51,7 @@ const Navbar = () => {
                     <a class="b2 nav-link" style={{ color: "white" }} href="/Haber">Haberler <i class="fa-regular fa-newspaper fa-fade"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="b4 nav-link" style={{ color: "white" }} href="/TakımEkle">
+                    <a class="b4 nav-link" style={{ color: "white" }} href="/TakimEkle">
                         Takım Ekle <i class="fa-light fa-plus fa-fade"></i>
                     </a>
                 </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="b5 nav-link" style={{ color: "white" }} href="/TakımDetay">
+                    <a class="b5 nav-link" style={{ color: "white" }} href="/TakimDetay">
                         Futbolcular <i class="fa-solid fa-user-tie fa-fade"></i>
                     </a>
                 </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
 
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/Profil">Giriş Yap</a></li>
-                        <li><a class="dropdown-item" href="/Kayıtol">Kayıt Ol</a></li>
+                        <li><a class="dropdown-item" href="/Kayitol">Kayıt Ol</a></li>
                     </ul>
                 </div>
 

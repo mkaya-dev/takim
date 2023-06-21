@@ -41,7 +41,7 @@ const Oyuncular = () => {
                     )
                 }
             </div>
-            <Link to={"/TakımDetay"}>
+            <Link to={"/TakimDetay"}>
                 <button style={{ margin: 5 }} className="btn btn-outline-light"><i class="fa-solid fa-arrow-left fa-beat-fade fa-2xs"></i></button>
             </Link>
             <div className="cubuk">
