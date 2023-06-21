@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Navbar from "../Component/Navbar";
 import HashLoader from "react-spinners/HashLoader";
-import icon from "../Resimler/Süperlig_logo.png"
+import icon from "../Resimler/Superlig_logo.png"
 import iconn from "../Resimler/superligg.jpg"
 import { useNavigate } from "react-router-dom"
 

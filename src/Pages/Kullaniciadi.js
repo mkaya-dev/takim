@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../Resimler/Süperlig_logo.png"
+import icon from "../Resimler/Superlig_logo.png"
 import { Link } from "react-router-dom";
 
 

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Navbar from "../Component/Navbar";
 import HashLoader from "react-spinners/HashLoader";
 import icon from "../Resimler/superligg.jpg"
-
 import "./All.css"
 
 
@@ -31,11 +30,11 @@ const TakimDetay = () => {
 
         <div style={{margin:40}} className="col-12 row row-cols-6 row-cols-md-5 g-3">
            {
-            toyuncu.map(takımlar=>
+            toyuncu.map(takimlar=>
                 <div>
                    
-                   <Link style={{color:"white",textDecoration:"none"}} to={`/${takımlar.id}/Oyuncular`}>
-                   <p className="buttona">{takımlar.name}</p>
+                   <Link style={{color:"white",textDecoration:"none"}} to={`/${takimlar.id}/Oyuncular`}>
+                   <p className="buttona">{takimlar.name}</p>
                    
                    </Link> 
                 </div>

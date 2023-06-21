@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Component/Navbar";
 import { Link, useParams } from "react-router-dom";
-import icon from "../Resimler/Süperlig_logo.png"
+import icon from "../Resimler/Superlig_logo.png"
 import axios from "axios";
 import { useNavigate } from "react-router-dom"
 

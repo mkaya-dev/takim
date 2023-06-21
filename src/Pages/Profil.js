@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"
 import "./All.css"
-import icon from "../Resimler/Süperlig_logo.png"
+import icon from "../Resimler/Superlig_logo.png"
 import { Link } from "react-router-dom";
 import axios from "axios";
 

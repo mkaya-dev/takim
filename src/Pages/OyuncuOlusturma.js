@@ -10,13 +10,13 @@ const OyuncuOlusturma = () => {
     const data = { name: "", age: "", number: "", position: "", team: "",team_id:"" };
     const [oyuncu, setOyuncu] = useState(data)
     const navigate = useNavigate();
-    const [takım, setTakım] = useState([])
+    const [takim, setTakim] = useState([])
 
     useEffect(() => {
         const api_link = "https://cryptic-gorge-72989.herokuapp.com/teams"
         axios.get(api_link)
             .then(response => {
-                setTakım(response.data)
+                setTakim(response.data)
 
             })
             
@@ -41,8 +41,8 @@ const OyuncuOlusturma = () => {
     return (
         <div>
             <Navbar /><br />
-            <div className="Takım_cerceve">
-                <div className="Takım_cerceve_iç">
+            <div className="Takim_cerceve">
+                <div className="Takim_cerceve_iç">
                     <div className="orta">
                         <img src={icon} width="50" /><br /><br />
                         <p>Oyuncu Ekle <i class="fa-light fa-plus fa-fade"></i></p>
@@ -70,10 +70,10 @@ const OyuncuOlusturma = () => {
                                 <select  name="team_id" value={oyuncu.team_id} onChange={handleData}    style={{ width: 440, height: 55 }} class="renk-border" >
                                     
                                     {
-                                        takım.map(takım =>
+                                        takim.map(takim =>
                                             <option><a class="dropdown-item" >
                                                 <Link>
-                                                    {takım.id}.{takım.name}   
+                                                    {takim.id}.{takim.name}   
                                                 </Link>
                                             </a></option>
                                         )
