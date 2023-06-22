@@ -14,8 +14,8 @@ import OyuncuOlusturma from './Pages/OyuncuOlusturma';
 import TakimDetay from './Pages/TakimDetay';
 import Oyuncular from './Pages/Oyuncular';
 import OyuncuDetay from './Pages/OyuncuDetay';
-import Düzenle from './Pages/Düzenle';
-import OyuncuDüzenle from './Pages/OyuncuDüzenle';
+import Duzenle from './Pages/Duzenle';
+import OyuncuDuzenle from './Pages/OyuncuDuzenle';
 function App() {
   return (
     <BrowserRouter>
@@ -25,7 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Puandurumu" element={<Puandurumu />} />
         <Route path="/TakimEkle" element={<TakimEkle />} />
-        <Route path="/:id/Düzenle"  element={<Düzenle/>}/>
+        <Route path="/:id/Duzenle"  element={<Duzenle/>}/>
         <Route path="/OyuncuOlusturma" element={<OyuncuOlusturma/>} />
         <Route path="/Haber" element={<Haber />} />
         <Route path="/Profil/Hesap_olusturma" element={<Hesap_olusturma />} />
@@ -35,7 +35,7 @@ function App() {
         <Route path="/TakimDetay" element={<TakimDetay/>}/>
         <Route path="/:id/Oyuncular" element={<Oyuncular/>} />
         <Route path="/:id/OyuncuDetay" element={<OyuncuDetay/>} />
-        <Route path="/:id/OyuncuDüzenle"  element={<OyuncuDüzenle/>} />
+        <Route path="/:id/OyuncuDuzenle"  element={<OyuncuDuzenle/>} />
       </Routes>
     </BrowserRouter>
   )

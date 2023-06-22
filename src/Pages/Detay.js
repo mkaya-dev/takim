@@ -100,7 +100,7 @@ const Detay = () => {
             </Link>
 
             <button style={{ margin: 5 }} onClick={handleClick} className="btn btn-outline-danger"><i class="fa-solid fa-shirt fa-beat-fade"></i> Sil <i class="fa-solid fa-minus fa-fade"></i></button>
-           <Link to={`/${takim.id}/Düzenle`}>
+           <Link to={`/${takim.id}/Duzenle`}>
            <button style={{ margin: 5 }} className="btn btn-outline-primary"><i class="fa-solid fa-rotate-left fa-fade"></i> Düzenleme </button>
            </Link> 
 

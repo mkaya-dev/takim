@@ -64,7 +64,7 @@ const OyuncuDetay = () => {
                         <button style={{ margin: 5 }} className="btn btn-outline-dark"><i class="fa-solid fa-arrow-left fa-beat-fade fa-2xs"></i></button>
                     </Link>
                     <button style={{ margin: 5 }} onClick={oyuncuSilmeButton} className="btn btn-outline-danger"> <i class="fa-solid fa-user-tie fa-fade"></i> Sil <i class="fa-solid fa-minus fa-fade"></i></button>
-                   <Link to={`/${oyuncu.id}/OyuncuDüzenle`}>
+                   <Link to={`/${oyuncu.id}/OyuncuDuzenle`}>
                    <button style={{ margin: 5 }}  className="btn btn-outline-primary"><i class="fa-solid fa-rotate-left fa-fade"></i> Düzenleme </button>
                    </Link>
 
