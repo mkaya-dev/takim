@@ -20,11 +20,11 @@ import resim18 from "../Resimler/23.jpg"
 import resim19 from "../Resimler/24.jpg"
 import resim20 from "../Resimler/25.jpg"
 import Navbar from "../Component/Navbar";
-import Canlı from "../Component/Canlı";
 import Slider from "../Component/Slider";
 import "./All.css"
 import { Link } from "react-router-dom";
 import icon from "../Resimler/superligg.jpg"
+import Canli from "../Component/Canli";
 
 
 
@@ -33,7 +33,7 @@ const Haber = () => {
     return (
         <div>
             <Navbar /><br/>
-            <Canlı />
+            <Canli />
             <Slider /><br /><br />
             <div className="ortaa">
 

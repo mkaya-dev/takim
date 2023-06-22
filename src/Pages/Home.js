@@ -1,13 +1,13 @@
 import Navbar from "../Component/Navbar";
 import React  from "react";
 import Slayt from "../Component/Slayt";
-import Canlı from "../Component/Canlı";
 import icon from "../Resimler/superligg.jpg"
 import tff from "../Resimler/super.jpg";
 import ziraat from "../Resimler/tffe.jpg";
 import { Link } from "react-router-dom";
 import "./All.css";
 import ReactPlayer from 'react-player/youtube';
+import Canli from "../Component/Canli";
 
 const Home = () => {
     return (
@@ -15,7 +15,7 @@ const Home = () => {
             <Navbar />
             <hr />
             <h3 style={{ textAlign: "center", fontSize: 18 }}>Canlı Puan Durumu</h3>
-            <Canlı />
+            <Canli />
             <h5 style={{textAlign:"center",color:"white",fontFamily:"-moz-initial",fontSize:20}}>Süperlig Takımları 22/23</h5><br/>
             <Slayt /><br />
             <div className="video_yerlestirme">
